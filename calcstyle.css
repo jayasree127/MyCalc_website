@@ -1,0 +1,70 @@
+body{
+    background-image: url("c:\Users\ELCOT\Downloads\images.jpg");
+}
+h1{
+    margin: 15px 45px 15px 45px;
+    border-style:ridge;
+    border-color: purple ;
+    border-width: 25px;
+    border-radius: 12px;
+    border-bottom-right-radius: 5px;
+    font-size: medium;
+    text-align: center;
+    text-decoration: solid;
+    color: rgb(0, 255, 98);
+}
+p{
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+    color:rgb(255, 127, 238)
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+ 
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #efefef;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background: #443a52;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator form input{
+    border:0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px black,5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145;
+}
+form input.operator{
+    color:rgb(207, 254, 0)
+}
